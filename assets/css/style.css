@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   background-color: rgb(248, 233, 214);
@@ -6,26 +5,31 @@ body {
 .logo-wip {
   padding: 20px;
 }
-.sponser-list{
+.sponser-list {
   z-index: 10;
   margin-top: 50px;
 }
-.card-sponser{
+.card-sponser {
   z-index: 20;
 }
-.footer-img{
+.footer-img {
   z-index: -5;
   position: relative;
   margin-top: -20%;
   width: 100%;
 }
-.footer-img1{
+.footer-img1 {
   z-index: -5;
   position: relative;
   margin-top: -30%;
 }
-.footer-tree{
+.footer-tree {
   z-index: -1;
   position: absolute;
   margin-top: -25%;
+}
+.front img {
+  -webkit-box-shadow: 0px 0px 47px 0px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0px 0px 47px 0px rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 47px 0px rgba(255, 255, 255, 1);
 }
