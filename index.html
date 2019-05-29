@@ -1,26 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="author" content="llUJODev"/>
+    <meta name="author" content="llUJODev" />
 
     <title>WIPCAMP11 Reward</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-
-    <div class="logoWip">
-        <div class="d-flex justify-content-center">
-
-                <img src="assets/img/logo.png" width="400" height="120" alt="" srcset="">
+    <section class="headers-sec">
+        <div class="container">
+            <div class="row">
+                <div class="logo-wip">
+                    <div class="col-lg-12 text-center">
+                        <img src="assets/img/logo.png" width="40%" alt="" srcset="">
+                    </div>
+                    <div class="col-lg-12 text-center">
+                        <img width="15%" src="assets/img/LogoCana.png">
+                    </div>
+                </div>
+            </div>
         </div>
-     
-    </div>
-    
+    </section>
+
+    <section class="card-sponser">
+
+        <div class="sponser-list">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div id="card0">
+                            <div class="front">
+                                <img src="https://via.placeholder.com/200x250&text=front">
+                            </div>
+                            <div class="back">
+                                <img src="https://via.placeholder.com/200x250&text=back">
+                            </div>
+                        </div>
+                        <!-- filp-card -->
+                    </div>
+                    <div class="col-md-3">
+                        <div id="card1">
+                            <div class="front">
+                                <img src="https://via.placeholder.com/200x250&text=front">
+                            </div>
+                            <div class="back">
+                                <img src="https://via.placeholder.com/200x250&text=back">
+                            </div>
+                        </div>
+                        <!-- filp-card -->
+                    </div>
+                    <div class="col-md-3">
+                        <div id="card2">
+                            <div class="front">
+                                <img src="https://via.placeholder.com/200x250&text=front">
+                            </div>
+                            <div class="back">
+                                <img src="https://via.placeholder.com/200x250&text=back">
+                            </div>
+                        </div>
+                        <!-- filp-card -->
+                    </div>
+                    <div class="col-md-3">
+                        <div id="card3">
+                            <div class="front">
+                                <img src="https://via.placeholder.com/200x250&text=front">
+                            </div>
+                            <div class="back">
+                                <img src="https://via.placeholder.com/200x250&text=back">
+                            </div>
+                        </div>
+                        <!-- filp-card -->
+                    </div>
+                </div>
+                <!-- row -->
+                <div class="row" style="margin-top: 25px;">
+                    <div class="col-md-3">
+                        <div id="card4">
+                            <div class="front">
+                                <img src="https://via.placeholder.com/200x250&text=front">
+                            </div>
+                            <div class="back">
+                                <img src="https://via.placeholder.com/200x250&text=back">
+                            </div>
+                        </div>
+                        <!-- filp-card -->
+                    </div>
+                    <div class="col-md-3">
+                        <div id="card5">
+                            <div class="front">
+                                <img src="https://via.placeholder.com/200x250&text=front">
+                            </div>
+                            <div class="back">
+                                <img src="https://via.placeholder.com/200x250&text=back">
+                            </div>
+                        </div>
+                        <!-- filp-card -->
+                    </div>
+                    <div class="col-md-3">
+                        <div id="card6">
+                            <div class="front">
+                                <img src="https://via.placeholder.com/200x250&text=front">
+                            </div>
+                            <div class="back">
+                                <img src="https://via.placeholder.com/200x250&text=back">
+                            </div>
+                        </div>
+                        <!-- filp-card -->
+                    </div>
+                    <div class="col-md-3">
+                        <div id="card7">
+                            <div class="front">
+                                <img src="https://via.placeholder.com/200x250&text=front">
+                            </div>
+                            <div class="back">
+                                <img src="https://via.placeholder.com/200x250&text=back">
+                            </div>
+                        </div>
+                        <!-- filp-card -->
+
+                    </div>
+                </div>
+                <!-- container -->
+            </div>
+            <!-- sponser list -->
+    </section>
+
+    <section class="footer-sec">
+
+        <img class="footer-tree" src="assets/img/MainContact_Secondtree.png">
+        <!-- <img src="assets/img/blueMountains.png" class="footer-img1"> -->
+        <img class="footer-img" src="assets/img/MainWho_floor.png">
+        
+    </section>
+
+
+
+
+
+
 </body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        for (let i = 0; i < 8; i++) {
+            $("#card" + i).flip();
+        }
+    })
+</script>
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
 
